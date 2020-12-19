@@ -1,9 +1,9 @@
 int putihCoeg = 3;
-void setup {
+void setup() {
 digitalWrite(putihCoeg, OUTPUT);
 }
 
-void loop {
+void loop() {
 digitalWrite(putihCoeg, HIGH);
 delay(1000);
 digitalWrite(putihCoeg, LOW);
