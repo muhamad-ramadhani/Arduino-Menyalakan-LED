@@ -1,10 +1,11 @@
-int putihCoeg = 3;
+int LED = 3;
 void setup() {
-digitalWrite(putihCoeg, OUTPUT);
+digitalWrite(LED, OUTPUT);
 }
 
 void loop() {
-digitalWrite(putihCoeg, HIGH);
+digitalWrite(LED, HIGH);
 delay(1000);
-digitalWrite(putihCoeg, LOW);
+digitalWrite(LED, LOW);
 delay(1000);
+}
